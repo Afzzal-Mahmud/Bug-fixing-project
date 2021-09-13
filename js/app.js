@@ -25,7 +25,7 @@ const showProducts = (products) => {
     <h2>Price: $ ${singelProduct.price}</h2>
     <button onclick="addToCart(${singelProduct.id},
       ${singelProduct.price})" id="addToCart-btn" class="buy-now btn btn-success">add to cart</button>
-      <button id="details-btn" class="btn btn-danger">Details</button></div>
+      <button id="details-btn" class="btn btn-color">Details</button></div>
       `;
       productContainetr.appendChild(div)
       console.log(`${singelProduct.price}`)
